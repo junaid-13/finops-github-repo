@@ -10,4 +10,5 @@ variable "github_owner" {
 
 variable "repositories" { 
     type = list(string)
+    default = [ "infra-live", "platform-gitops", "services" ]
 }
